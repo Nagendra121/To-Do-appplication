@@ -1,0 +1,78 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  height: 800px;
+}
+#name{
+   background-image: url("https://www.ubuntupit.com/wp-content/uploads/2019/06/best-to-do-list-apps-for-Android.jpg");
+   background-repeat: no-repeat;
+  background-size: 100%;
+  height:90%;
+  width:100%;
+}
+#head{
+  color:yellow;
+  background-color: #252a2c;
+  height: 120px;
+}
+#form{
+  width: 1000px;
+    height: 700px;
+   color:red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 20px;
+    text-align: center;
+   background-image: url("https://images.unsplash.com/photo-1581312742770-ce89199554af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
+   background-repeat: no-repeat;
+  background-size: 99%;
+   
+}
+.modal-dialog-centered {
+    min-height: calc(100% - 0.5rem) !important;
+}
+.inp{
+ border-radius: 20px;
+ width: 90%;
+  display:inline-block;
+  
+
+}
+.but{
+  padding:3rem;
+  margin:3rem;
+}
+textarea{
+  height:100px;
+}
+#date{
+  width:50%;
+}
+.linethrough{
+  text-decoration: line-through;
+}
+.datepassed{
+  display:inline-block;
+  color: black;
+  border: yellow solid;
+   background-image: linear-gradient(to right, yellow, orange);
+ border-top-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+}
+.datestillvalid{
+  display:inline-block;
+  color: black;
+  border:  black solid;
+  background-image: linear-gradient(to right, pink, orange);
+   border-top-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+}
+ul{
+  text-alain: center;
+}
+#but{
+   border-top-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+}
